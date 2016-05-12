@@ -5,5 +5,8 @@ export default Ember.Route.extend({
     doRegister() {
       console.log('attempted register');
     }
+  },
+  model() {
+    return this.store.createRecord('user');
   }
 });

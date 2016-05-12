@@ -4,6 +4,12 @@ export default Ember.Route.extend({
   actions: {
     doLogin() {
       console.log('login attempted');
-    }
+    },
+  },
+  model() {
+    return {
+      email: '',
+      password: ''
+    };
   }
 });
