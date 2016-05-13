@@ -7,3 +7,12 @@ $roboto-font-path: '../assets/';
 body {
   background-color: color('indigo', 'darken-1');
 }
+
+.create-room {
+  .col {
+    .btn-flat {
+      margin-top: 1.5rem;
+    }
+  }
+;
+}
